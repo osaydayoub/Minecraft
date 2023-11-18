@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
-.color-tool,
+body{
+    background-color: aqua;
+    display: flex;
+}
+
 .cell {
     width: 45px;
     height: 45px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transition: 0.2s linear opacity;
     cursor: pointer;
 }
 
-.board-container {
+.world-container {
     display: flex;
 
 }
@@ -45,3 +49,28 @@
 .sand-color{
     background-color: sandybrown;
 }
+
+
+.btn-style {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .chosen-btn{
+    border: solid saddlebrown 5px;
+    border-radius: 20px;
+  }
+
+  .tools-and-actions{
+    border: solid black 3px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
