@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-tool,
+.cell {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    transition: 0.2s linear opacity;
+    cursor: pointer;
+}
+
+.board-container {
+    display: flex;
+
+}
+
+ /* 1 */
+.skyblue-color {
+    background-color: skyblue;
+}
+
+/* 2 */
+.white-color {
+    background-color: white;
+}
+
+/* 3 */
+.green-color {
+    background-color: green;
+}
+/* 4 */
+.wood-color {
+    background-color: #966F33;
+}
+
+/* 5 */
+.gray-color {
+    background-color: gray;
+}
+/* 6 */
+.sand-color{
+    background-color: sandybrown;
+}
