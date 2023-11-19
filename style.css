@@ -4,10 +4,53 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: aqua;
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* background: linear-gradient(to right,#FF5F6D, #FFC371); */
+    overflow: hidden;
     display: flex;
+    align-items: center;
 }
+
+.start-game-container {
+    background: url(./img/back.avif) no-repeat center center/cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: aliceblue;
+    /* display: none; */
+    z-index: 20;
+}
+
+.logo-img {
+    height: 50%;
+}
+
+.start-game1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.start-game-button {
+    color: black;
+    font-size: large;
+    padding: 10px 20px;
+}
+
+
+
 
 .cell {
     width: 45px;
@@ -22,7 +65,7 @@ body{
 
 }
 
- /* 1 */
+/* 1 */
 .skyblue-color {
     background-color: skyblue;
 }
@@ -36,6 +79,7 @@ body{
 .green-color {
     background-color: green;
 }
+
 /* 4 */
 .wood-color {
     background-color: #966F33;
@@ -45,8 +89,9 @@ body{
 .gray-color {
     background-color: gray;
 }
+
 /* 6 */
-.sand-color{
+.sand-color {
     background-color: sandybrown;
 }
 
@@ -62,15 +107,48 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-  .chosen-btn{
+}
+
+.chosen-btn {
     border: solid saddlebrown 5px;
     border-radius: 20px;
-  }
+}
 
-  .tools-and-actions{
+.tools-and-actions {
     border: solid black 3px;
     width: 150px;
     display: flex;
     flex-direction: column;
-  }
+}
+
+
+/* #axe {
+    background: url(./img/axe-img.png) no-repeat center center/cover;
+    width: 100px;
+    height: 125px;
+}
+
+#pickaxe {
+    background: url(./img/pickaxe-img.png) no-repeat center center/cover;
+    width: 100px;
+    height: 125px;
+}
+
+#shovel {
+    background: url(./img/shovel-img.png) no-repeat center center/cover;
+    width: 100px;
+    height: 125px;
+}
+
+#reset {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */

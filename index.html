@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="tools-and-actions">
-        <button  class="btn-style" id="axe">axe🪓</button>
-        <button  class="btn-style" id="pickaxe">Pickaxe ⛏️</button>
-        <button  class="btn-style" id="shovel">Shovel</button>
-        <div>
-            <button  class="btn-style" id="inventory">inventory📦</button>
-            <div class="cell" id="last-tile-removed"></div>
+    <div class="start-game-container">
+        <img class="logo-img" src="./img/Minecraft-Logo.png" alt="logo">
+        <div class="start-game1">
+            <h2>Game Instruction:</h2>
+            <ul class="start-game-list">
+                <li>You need to pick a tool</li>
+                <li>Use the tool to take off a tile from the screen</li>
+                <li>You can place the last tile you have picked back wherever you want</li>
+            </ul>
+            <button class="start-game-button">START GAME</button>
         </div>
-        
-        <button  class="btn-style" id="reset">reset🔁</button>
     </div>
+
+    <div class="tools-and-actions">
+        <button class="btn-style" id="axe">axe🪓</button>
+        <button class="btn-style" id="pickaxe">Pickaxe ⛏️</button>
+        <button class="btn-style" id="shovel">Shovel</button>
+        <button class="btn-style" id="inventory"><div class="cell" id="last-tile-removed"></div></button>
+
+        <!-- <div>
+            <button class="btn-style" id="inventory">inventory📦</button>
+            <div class="cell" id="last-tile-removed"></div>
+        </div> -->
+
+        <button class="btn-style" id="reset">Reset🔁</button>
+    </div>
+
     <div class="world-container"></div>
+
     <script src="./main.js"></script>
-    
+
 </body>
+
 </html>

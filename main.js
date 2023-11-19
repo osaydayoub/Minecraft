@@ -1,3 +1,9 @@
+const startGameContainer = document.querySelector(".start-game-container");
+const startGameButton = document.querySelector(".start-game-button");
+
+startGameButton.addEventListener("click", () => {
+    startGameContainer.style.display = "none";
+})
 // create the world -----------------------------------------------------------------------------------------------
 const WorldArray = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -200,6 +206,7 @@ const inventoryCellClickHandler = (event) => {
         }
         removeColors(event.target);
         event.target.classList.add(lastTileRemoved);
+        removeColors(lastTileCell);
         tileNumber = 0;
     }
 }
