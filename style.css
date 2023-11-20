@@ -77,29 +77,35 @@ body {
 
 /* 3 */
 .green-color {
-    background-color: green;
+    /* background-color: green; */
+    background: url(./img/green.png) no-repeat center center/cover;
+
 }
 
 /* 4 */
 .wood-color {
-    background-color: #966F33;
+    background: url(./img/wood.png) no-repeat center center/cover;
+    /* background-color: #966F33; */
 }
 
 /* 5 */
 .gray-color {
-    background-color: gray;
+    background: url(./img/rock.png) no-repeat center center/cover;
+    /* background-color: gray; */
 }
 
 /* 6 */
 .sand-color {
-    background-color: sandybrown;
+    background: url(./img/dirt.png) no-repeat center center/cover;
+
+    /* background-color: sandybrown; */
 }
 
 
 .btn-style {
-    background-color: #04AA6D;
+    background-color: skyblue;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -119,10 +125,12 @@ body {
     width: 150px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* #axe {
+#axe {
     background: url(./img/axe-img.png) no-repeat center center/cover;
     width: 100px;
     height: 125px;
@@ -140,7 +148,7 @@ body {
     height: 125px;
 }
 
-#reset {
+/* #reset {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -151,4 +159,4 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-} */
+}  */
